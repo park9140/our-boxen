@@ -14,7 +14,7 @@ class people::park9140 {
   
   file { "${home}/.config/fish/personal.fish":
     ensure  => link,
-    target  => "${$boxen::config::repodir}/modules/people/park9140/personal.fish",
+    target  => "${$boxen::config::repodir}/modules/people/files/park9140/personal.fish",
     subscribe => File["${home}/.config/fish/"]
   }
 
