@@ -1,4 +1,4 @@
-class daptiv::ruby {
+class home::ruby {
   # default ruby versions
 
   include ruby::1_9_3

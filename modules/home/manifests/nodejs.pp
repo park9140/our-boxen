@@ -1,4 +1,4 @@
-class daptiv::nodejs {
+class home::nodejs {
   # node versions
   include nodejs::v0_10
 

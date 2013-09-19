@@ -1,4 +1,4 @@
-class daptiv::dotFiles {
+class home::dotFiles {
   $home = "/Users/${::boxen_user}"
   $dotfiles_dir = "${$boxen::config::repodir}/dotfiles"
   #ensure that .bash_profile is loaded when you execute any bash shell

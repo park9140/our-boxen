@@ -1,4 +1,4 @@
-class daptiv::fishShell {
+class home::fishShell {
     # Install fish,set it as the default shell
   class { 'fish':
     chsh => true,

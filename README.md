@@ -1,6 +1,6 @@
 # Our Boxen
 
-Welcome to daptiv osx setup, please pull this repo and follow the getting started instructions
+Welcome to home osx setup, please pull this repo and follow the getting started instructions
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ http://guide.macports.org/#installing.macports.uninstalling
     `sudo dseditgroup -o edit -a [your username] -t user staff`
 
 #### You are ready hit the button and follow instructions
-1. Go to https://daptiv-boxen.herokuapp.com/ authenticate and run the given command
+1. Go to https://home-boxen.herokuapp.com/ authenticate and run the given command
 1. From this point on just run boxen to get updates or any changes to your personal profile.
 
 ## Configuration
@@ -36,9 +36,9 @@ The `modules/people/manifests` folder contains your personal manifest files whic
 
 ###Optional Tools
 
-`include daptiv::fishShell` will add a base fish shell configured with a common base setup refer to park9140 people config for options or talk to Jonathan Park for support
+`include home::fishShell` will add a base fish shell configured with a common base setup refer to park9140 people config for options or talk to Jonathan Park for support
 
-`include daptiv::sublime` will install sublime text 2, sublime linter plugin, and configure subl command line alias to run sublime text from the command line.
+`include home::sublime` will install sublime text 2, sublime linter plugin, and configure subl command line alias to run sublime text from the command line.
 
 ### Dependencies
 
