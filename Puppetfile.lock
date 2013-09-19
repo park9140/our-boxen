@@ -89,19 +89,9 @@ GITHUBTARBALL
     ruby (6.3.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
-  specs:
-    sublime_text_2 (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (2.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
@@ -112,6 +102,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
+
+GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -144,9 +139,8 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
-  sublime_text_2 (= 1.1.2)
+  sublime_text_3 (= 1.0.0)
   sudo (= 1.0.0)
-  vagrant (= 2.0.5)
   virtualbox (= 1.0.5)
   xquartz (= 1.1.0)
 
