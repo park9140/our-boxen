@@ -26,7 +26,7 @@ http://guide.macports.org/#installing.macports.uninstalling
     `sudo dseditgroup -o edit -a [your username] -t user staff`
 
 #### You are ready hit the button and follow instructions
-1. Go to https://home-boxen.herokuapp.com/ authenticate and run the given command
+1. Go to https://parkboxen.herokuapp.com/ authenticate and run the given command
 1. From this point on just run boxen to get updates or any changes to your personal profile.
 
 ## Configuration
