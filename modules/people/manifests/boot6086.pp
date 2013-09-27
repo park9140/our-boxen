@@ -8,6 +8,8 @@ class people::boot6086 {
 
   include iterm2::dev
 
+  include projects::testangular
+
   $home = "/Users/${::boxen_user}"
 
   file { "${home}/.config/fish/personal.fish":

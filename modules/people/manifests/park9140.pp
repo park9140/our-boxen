@@ -9,6 +9,7 @@ class people::park9140 {
   include iterm2::dev
 
   include projects::ppmspa
+  include projects::testangular
 
   $home = "/Users/${::boxen_user}"
 
