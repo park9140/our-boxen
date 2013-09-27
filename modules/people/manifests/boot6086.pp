@@ -27,7 +27,7 @@ class people::boot6086 {
 
   repository{
     'my sublime config':
-      source   => 'boot6086/sublimeconfig', #short hand for github repos
+      source   => 'park9140/sublimeconfig', #short hand for github repos
       provider => 'git',
       path => "${home}/src/sublimeconfig",
       force => true
