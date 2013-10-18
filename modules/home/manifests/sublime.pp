@@ -2,7 +2,8 @@ class home::sublime {
   # default ruby versions
   include sublime_text_3
   sublime_text_3::package { 'Linter':
-    source => 'SublimeLinter/SublimeLinter'
+    source => 'park9140/SublimeLinter',
+    branch => 'origin/sublime-text-3'
   }
 
   #used to share editing at floobits.com
@@ -21,7 +22,12 @@ class home::sublime {
   sublime_text_3::package { 'emmet-sublime':
     source => 'sergeche/emmet-sublime'
   }
-  sublime_text_3::package { 'ts3':
+  sublime_text_3::package { 'T3S':
     source => 'Railk/T3S'
+  }
+
+  # Shell and live code execution within a sublime buffer
+  sublime_text_3::package { 'SublimeREPL':
+    source => 'git@github.com:wuub/SublimeREPL'
   }
 }

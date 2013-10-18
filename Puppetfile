@@ -41,7 +41,7 @@ github "osx",        "1.6.0"
 github "fish",       "1.0.0"
 github "mongodb",    "1.0.4"
 
-github "sublime_text_3", "1.0.0", :repo => "jozefizso/puppet-sublime_text_3"
+github "sublime_text_3", "1.0.1", :repo => "jozefizso/puppet-sublime_text_3"
 github "virtualbox", "1.0.5"
 github "iterm2",    "1.0.3"
 github "chrome",    "1.1.1"

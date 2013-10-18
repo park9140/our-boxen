@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: jozefizso/puppet-sublime_text_3
   specs:
-    sublime_text_3 (1.0.0)
+    sublime_text_3 (1.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -139,7 +139,7 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
-  sublime_text_3 (= 1.0.0)
+  sublime_text_3 (= 1.0.1)
   sudo (= 1.0.0)
   virtualbox (= 1.0.5)
   xquartz (= 1.1.0)
