@@ -10,6 +10,7 @@ class people::park9140 {
 
   include projects::ppmspa
   include projects::testangular
+  include projects::githubblog
 
   $home = "/Users/${::boxen_user}"
 
