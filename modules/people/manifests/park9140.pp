@@ -1,7 +1,6 @@
 class people::park9140 {
   include home::fishShell
 
-  include home::sublime
 
   include chrome
   include chrome::canary
